@@ -8,8 +8,8 @@
 <p>- CSS3</p>
 <p>- JAVASCRIPT</p>
 <br>
-<img src="https://raw.githubusercontent.com/sidneydevfrontend/projeto-jokenpo/refs/heads/main/JoKenP%C3%B4.png" />
+<img src="https://github.com/sidneydevfrontend/Site-de-Cafeteria/blob/main/cafeteria-git.jpg" />
 <br>
 <br>
 <h5>Acesse:</h5>
-<a href="https://sidneydevfrontend.github.io/projeto-jokenpo/">Link do Projeto</a>
+<a href="https://sidneydevfrontend.github.io/Site-de-Cafeteria/">Link do Projeto</a>
