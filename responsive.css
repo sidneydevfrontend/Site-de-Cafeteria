@@ -1,0 +1,137 @@
+
+/* Responsivo do navbar */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none; 
+              
+    }
+
+    #btn-menu {
+        display: block;
+    }
+
+    
+
+    .menu-mobile.abrir {
+        visibility: visible;
+        height: calc(100vh - 113px);
+    }
+    
+}
+
+
+
+/* Responsivo do Slider */
+@media screen and (max-width: 768px){
+    .item .title {
+        font-size: 6rem;        
+    }
+
+    .item .fruit {
+        width: 75%;
+        position: absolute;
+        top: 20%;
+        left: 9%;
+        z-index: 3;
+    }
+
+    .item .refri {
+        z-index: 2;
+        width: 350px;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    #prev, #next {
+        top: 60%;
+        width: 40px;
+        height: 40px;         
+    }
+
+    #prev {
+        left: 38px;
+    }
+
+    #next {
+        right: -6px;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        
+    }
+    
+    .home-container .btn {
+        width: 250px;
+    }
+
+/* Responsivo do Sobre */
+    .btn-sobre {
+        font-size: 1.4rem;
+    }
+
+    .content h3 {
+        font-size: 3rem;
+        text-transform: none;        
+    }
+
+    .content p {
+        color: #FFFFFF;
+        font-size: 2rem;
+        font-weight: 100;
+        line-height: 1.9;
+        padding: 1rem 0;
+    }
+
+    .titles {
+        font-size: 3rem;        
+    }    
+
+    #about img{
+        display:inline-block;
+        height:237px;
+        border-radius: 30px 30px 30px 30px;
+    }
+
+/* Image */
+    #about .row .container-image img{
+        margin-top: 2px;
+    }
+
+/* Row */
+    #about .row{
+        height:391px;
+    }
+
+    .about {
+        font-size: 4rem;
+        color: var(--main-color);
+        margin-bottom: -190px;
+    }
+
+    .about .row {
+        display: flex;
+        flex-wrap: wrap;    
+        align-items: center;
+        margin-bottom: 270px;   
+    }
+
+    .about .row .content h3 {
+        font-size: 3rem;
+        color: #FFFFFF;
+    }
+
+    .about .row .content p {
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+    }
+
+}
+
+
+
+
+
+

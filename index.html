@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imgs/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Dev Cafeteria</title>
+</head>
+
+<body>
+    <header class="header">
+        <section>
+
+            <a href="#" class="logo">
+                <img src="./imgs/logo.png" alt="logo">
+            </a>
+            <div class="container-menu">
+
+                <nav class="navbar">
+                    <a href="#">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#review">Avaliações</a>
+                    <a href="#localization">Localização</a>
+                </nav>
+
+                <div class="icons">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
+                        alt="search--v1" />
+                    <img width="30" height="30"
+                        src="https://img.icons8.com/material-rounded/30/ffffff/shopping-cart.png" alt="shopping-cart" />
+                </div>
+
+            </div>
+
+            <!-- MENU MOBILE -->
+
+            <button onclick="animaMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+        
+
+            <div class="menu-mobile" id="menu-mobile">
+
+                <nav class="navbar-mobile">
+                    <a href="#">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#review">Avaliações</a>
+                    <a href="#localization">Localização</a>
+                </nav>
+                
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <div class="item active" style="background-image: url(./imgs/bg-slider1.jpg)" width="100%" height="auto">
+            <div class="title">Chocolatada</div>
+            <img src="./imgs/barra-chocolates.png" class="fruit">
+            <img src="./imgs/chocolatada.png" class="refri">
+        </div>
+
+        <div class="item" style="background-image: url(./imgs/bg-slider2.jpg)" width="100%" height="auto">
+            <div class="title">Vitaminado</div>
+            <img src="./imgs/frutas.png" class="fruit">
+            <img src="./imgs/frutado.png" class="refri">
+        </div>
+
+        <div class="arrow">
+            <button onclick="animar()" id="prev">＜</button>
+            <button id="next">＞</button>
+        </div>
+
+        <div class="home-container">
+            <a href="#menu" class="btn">Peça agora o seu!!</a>
+        </div>
+    </main>
+
+    <section class="about" id="about">
+        <h2 class="titles">Sobre <span>Nós</span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="./imgs/about-img.jpg" alt="sobre-nós">
+            </div>
+
+            <div class="content">
+                <h3>O que faz o nosso <span>Café Especial</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsam explicabo mollitia ratione natus
+                    provident perspiciatis ea voluptatem cumque! Temporibus, earum. Animi nostrum et tenetur debitis,
+                    maiores iste non quaerat.</p>
+                
+                <a href="#" class="btn-sobre">Saiba mais...</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2 class="titles">Nosso <span>Menu</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./imgs/menu-1.png" alt="item-1">
+                <h3>Café Coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,90</span></div>
+                <a href="#" class="btn-sobre">Comprar</a>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/menu-2.png" alt="item-2">
+                <h3>Café Cremoso</h3>
+                <div class="price">R$ 17,99 <span>R$ 22,90</span></div>
+                <a href="#" class="btn-sobre">Comprar</a>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/menu-3.png" alt="item-3">
+                <h3>Café Capuccino</h3>
+                <div class="price">R$ 19,99 <span>R$ 24,98</span></div>
+                <a href="#" class="btn-sobre">Comprar</a>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/menu-4.png" alt="item-4">
+                <h3>Chocolatado</h3>
+                <div class="price">R$ 18,99 <span>R$ 23,97</span></div>
+                <a href="#" class="btn-sobre">Comprar</a>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/menu-5.png" alt="item-5">
+                <h3>Vitaminado</h3>
+                <div class="price">R$ 13,99 <span>R$ 18,89</span></div>
+                <a href="#" class="btn-sobre">Comprar</a>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/menu-6.png" alt="item-6">
+                <h3>Café Mocaccino</h3>
+                <div class="price">R$ 16,99 <span>R$ 19,90</span></div>
+                <a href="#" class="btn-sobre">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h2 class="titles">O que estão <span>Dizendo</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./imgs/quote-img.png" alt="comentário">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolores aperiam eos, ullam ratione rem
+                    qui
+                    ab rerum natus expedita nihil, impedit odio asperiores distinctio iste numquam sit accusantium
+                    dolor!
+                </p>
+                <img src="./imgs/pic-1.png" alt="cliente" class="user">
+                <h3>João da Silva</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/quote-img.png" alt="comentário">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolores aperiam eos, ullam ratione rem
+                    qui
+                    ab rerum natus expedita nihil, impedit odio asperiores distinctio iste numquam sit accusantium
+                    dolor!
+                </p>
+                <img src="./imgs/pic-3.png" alt="cliente" class="user">
+                <h3>Rodolfo Mori</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/quote-img.png" alt="comentário">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolores aperiam eos, ullam ratione rem
+                    qui
+                    ab rerum natus expedita nihil, impedit odio asperiores distinctio iste numquam sit accusantium
+                    dolor!
+                </p>
+                <img src="./imgs/pic-2.png" alt="cliente" class="user">
+                <h3>Angélica Monique</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/christmas-star.png"
+                        alt="christmas-star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address" id="localization">
+        <h2 class="titles">Nossa <span>Localização</span></h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57161.98832836532!2d-49.18338274392591!3d-26.435599025985777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de94fe3390ab77%3A0xd1ce95ebe264c6a4!2sDoce%20Segredo%20Confeitaria%20e%20Caf%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1759092959669!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="footer">
+        <div class="share">
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new--v1.png"
+                alt="instagram-new--v1" />
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/30/ffffff/facebook-circled--v1.png"
+                alt="facebook-circled--v1" />
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/30/ffffff/youtube-play.png"
+                alt="youtube-play" />
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp--v1.png"
+                alt="whatsapp--v1" />
+            <p>Cafena Cafeteria © Todos os direitos reservados | Desenvolvedor: <a
+                    href="https://sidneydesigner.com.br">Sidney Silva</a> | @DevClub</p>
+        </div>
+    </section>
+
+    <div class="overlay-quadradinhos" id="textura"></div>
+
+    <style>
+        .overlay-quadradinhos {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 999998;
+            pointer-events: none;
+
+            /* AQUI VOCÊ PERSONALIZA O ESTILO DE COR E TAMANHO DOS QUADRADINHOS DA TEXTURA */
+            background-image:
+                radial-gradient(circle, rgba(241, 198, 144, 0.08) 1px, transparent 1px);
+
+            /* AQUI VOCÊ PERSONALIZA A DISTÂNCIA ENTRE OS PONTINHOS */
+            background-size: 10px 10px;
+        }
+    </style>        
+
+    <script src="./animar.js"></script> 
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
