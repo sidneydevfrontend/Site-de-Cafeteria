@@ -11,7 +11,7 @@
 <br>
 <h4>✨ Funcionalidades</h4>
 <br>
-<p>- ✅ Design 100% responsivo
+<p>✅ Design 100% responsivo
 
 ✅ Menu mobile interativo
 
@@ -21,8 +21,19 @@
 
 ✅ Animações CSS suaves</p>
 <br>
+<br>
+<h4>🎨 Características do Design</h4>
+<br>
+<p>Paleta de cores temática (café/madeira)
+
+Tipografia moderna (Google Fonts - Sora)
+
+Layout intuitivo e clean
+
+Imagens otimizadas</p>
+<br>
 <img src="https://github.com/sidneydevfrontend/Site-de-Cafeteria/blob/main/cafeteria-git.jpg" />
 <br>
 <br>
 <h5>Acesse:</h5>
-<a href="https://sidneydevfrontend.github.io/Site-de-Cafeteria/">Link do Projeto</a>
+<a href="https://sidneydevfrontend.github.io/Site-de-Cafeteria/">Aqui está o link do Projeto</a>
