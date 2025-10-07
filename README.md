@@ -1,12 +1,25 @@
-<h1>Mais um projeto com HTML, CSS e JavaScript</h1>
+<h1>☕ Cafeteria Website - Responsive Coffee Shop</h1>
 <br>
-<h4>Projeto Site para Cafeteria com slider e menu responsivo.</h4>
+<h4>Um website completo para cafeteria desenvolvido com HTML, CSS e JavaScript, focando em responsividade e experiência do usuário.</h4>
 <br>
-<h4>Tecnologia utilizada:</h4>
+<h4>🛠️ Tecnologias</h4>
 <br>
-<p>- HTML</p>
-<p>- CSS3</p>
-<p>- JAVASCRIPT</p>
+<p>- CSS3 - Grid, Flexbox, Variáveis CSS, Media Queries</p>
+<p>- JavaScript - Interatividade e animações</p>
+<p>- HTML5 - Estrutura semântica</p>
+<br>
+<br>
+<h4>✨ Funcionalidades</h4>
+<br>
+<p>- ✅ Design 100% responsivo
+
+✅ Menu mobile interativo
+
+✅ Hero slider com autoplay
+
+✅ Seções: Home, Sobre, Menu, Avaliações, Localização
+
+✅ Animações CSS suaves</p>
 <br>
 <img src="https://github.com/sidneydevfrontend/Site-de-Cafeteria/blob/main/cafeteria-git.jpg" />
 <br>
